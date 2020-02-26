@@ -1,20 +1,23 @@
 Interactive To-do list
 Need a way to add tasks, and a way to mark them as done.
 	Could also be that the app chooses tasks for the player.
+
 Possible tasks will be pre determined.
 	Need text to setup the story of the quest, and for completion.
 	Also needs rewards.
+
 Interactive mascot
 	Needs a progress meter showing how close it is to upgrading
 	Upgrade the mascot by feeding him food you get as task rewards
+	Do task -> Gain food -> Feed Mascot -> Gain lore
 	
 Data structures needed
 	Textbox
 	Image display
 	Progress bar
 	The to-do list
-	
+	Different game screens divided into the tabs
 	
 Prioritized
 	Task system
-	Text/Image rewards for completing tasks.
+	Text/Image rewards for completing tasks.	
