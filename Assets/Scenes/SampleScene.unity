@@ -1285,6 +1285,21 @@ PrefabInstance:
       propertyPath: MotherBox
       value: 
       objectReference: {fileID: 1046171827}
+    - target: {fileID: 8494549770971926672, guid: a78fdbe5b1e9a184696a8f4dc176bad4,
+        type: 3}
+      propertyPath: mainString
+      value: The Test Button was pressed <br> New Line test
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494549770971926672, guid: a78fdbe5b1e9a184696a8f4dc176bad4,
+        type: 3}
+      propertyPath: titleString
+      value: Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494549770971926672, guid: a78fdbe5b1e9a184696a8f4dc176bad4,
+        type: 3}
+      propertyPath: buttonString
+      value: Test Done
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a78fdbe5b1e9a184696a8f4dc176bad4, type: 3}
 --- !u!1 &2002123000

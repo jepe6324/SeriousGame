@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d247bfc6809ff54496cc0bd17246798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titleString: Test Button Pressed
-  mainString: The Test Button was pressed \n New Line test
-  buttonString: Test Close
+  titleString: 
+  mainString: You can use <br> to make linebreaks
+  buttonString: 
   MotherBox: {fileID: 0}
