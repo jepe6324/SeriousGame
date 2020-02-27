@@ -13,6 +13,11 @@ Interactive mascot
 	
 Data structures needed
 	Textbox
+		Darken the background
+		Display a opaque box to display text on
+			Possible scrolling for text
+		A close dialouge box button.
+		It should make things behind it unclickable.
 	Image display
 	Progress bar
 	The to-do list
