@@ -29,6 +29,9 @@ public class TextboxCreator : MonoBehaviour
 		titleString = titleString.Replace("<br>", "\n"); // Inserts new line
 		mainString = mainString.Replace("<br>", "\n");
 		buttonString = buttonString.Replace("<br>", "\n");
-		MotherBox.DisplayTextBox(titleString, mainString, buttonString);
+		if (MotherBox != null)
+			MotherBox.DisplayTextBox(titleString, mainString, buttonString);
+		else
+			Debug.Log("MotherBox was null, please set it to a instance of motherBox");
 	}
 }
