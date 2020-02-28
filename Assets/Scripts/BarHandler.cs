@@ -25,13 +25,22 @@ public class BarHandler : MonoBehaviour
 		bar.fillAmount = fillAmount;
 	}
 
-	void setCurrentValue(float value)
+	public void SetCurrentValue(float value)
 	{
 		currentValue = value;
 	}
 
-	void setMaxValue(float value)
+	public void SetMaxValue(float value)
 	{
 		maxValue = value;
+	}
+
+	public bool IsFull() // Just ask the bar if it is filled or not, I hope floating point doesn't fuck this up.
+	{
+		if (fillAmount >= 1)
+		{
+			return true;
+		}
+		return false;
 	}
 }
