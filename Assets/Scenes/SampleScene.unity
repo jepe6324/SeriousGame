@@ -473,45 +473,125 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 939703832}
     m_Modifications:
+    - target: {fileID: 210317670138518216, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 210317670138518216, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 210317670138518216, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 210317670138518216, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 235848781013063579, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 259606968461845865, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 656
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 259606968461845865, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 259606968461845865, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 621343405625382895, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2456481853149797248, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456481853149797248, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 5361385383805131409, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_Text
-      value: What the fuck did you just fucking say about me, you little bitch? I'll
-        have you know I graduated top of my class in the Navy Seals, and I've been
-        involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed
-        kills. I am trained in gorilla warfare and I'm the top sniper in the entire
-        US armed forces. You are nothing to me but just another target. I will wipe
-        you the fuck out with precision the likes of which has never been seen before
-        on this Earth, mark my fucking words. You think you can get away with saying
-        that shit to me over the Internet? Think again, fucker. As we speak I am
-        contacting my secret network of spies across the USA and your IP is being
-        traced right now so you better prepare for the storm, maggot. The storm that
-        wipes out the pathetic little thing you call your life. You're fucking dead,
-        kid. I can be anywhere, anytime, and I can kill you in over seven hundred
-        ways, and that's just with my bare hands. Not only am I extensively trained
-        in unarmed combat, but I have access to the entire arsenal of the United
-        States Marine Corps and I will use it to its full extent to wipe your miserable
-        ass off the face of the continent, you little shit. If only you could have
-        known what unholy retribution your little "clever" comment was about to bring
-        down upon you, maybe you would have held your fucking tongue. But you couldn't,
-        you didn't, and now you're paying the price, you goddamn idiot. I will shit
-        fury all over you and you will drown in it. You're fucking dead, kiddo.
+      value: 'GO SHOPPING
+
+'
       objectReference: {fileID: 0}
+    - target: {fileID: 5361385383805131409, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361385383805131409, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: c9a9eb7733022fd4db3d2bfad6027f13,
+        type: 3}
+    - target: {fileID: 5361385383805131409, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711244743800581737, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484689873952852754, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00af1c0d2e5ed794f940c27a919dd8a5,
+        type: 3}
     - target: {fileID: 7160417370804197390, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_Name
@@ -520,22 +600,22 @@ PrefabInstance:
     - target: {fileID: 7160417370804197390, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7693814060486735635, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7693814060486735635, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7693814060486735635, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.4022866
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8442986736830193191, guid: d09376bca0492fd448a1d3e91f342eb2,
         type: 3}
@@ -642,6 +722,17 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9091899552436412281, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_Text
+      value: TASKS
+      objectReference: {fileID: 0}
+    - target: {fileID: 9091899552436412281, guid: d09376bca0492fd448a1d3e91f342eb2,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: c9a9eb7733022fd4db3d2bfad6027f13,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d09376bca0492fd448a1d3e91f342eb2, type: 3}
 --- !u!1001 &1295738162
