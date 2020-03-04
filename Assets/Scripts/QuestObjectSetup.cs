@@ -9,9 +9,13 @@ public class QuestObjectSetup : MonoBehaviour
 	public TMPro.TextMeshProUGUI description;
 	public Image[] rewards;
 
+	private Quest quest;
+	private QuestHandler questHandler;
+
     // Start is called before the first frame update
     void Start()
     {
+		questHandler = FindObjectOfType<QuestHandler>();
     }
 
     // Update is called once per frame
@@ -22,6 +26,7 @@ public class QuestObjectSetup : MonoBehaviour
 
 	public void Setup(Quest quest)
 	{
+		this.quest = quest;
 		description.text = quest.questDescription;
 		for (int i = 0; i < quest.rewardPoints; i++)
 		{
@@ -29,6 +34,16 @@ public class QuestObjectSetup : MonoBehaviour
 			{
 				rewards[i].gameObject.SetActive(true);
 			}
+		}
+	}
+
+	public void Accept()
+	{
+		if (quest != null)
+		{
+			Destroy(gameObject);
+			quest.SetState(Quest.State.IN_PROGRESS);
+			questHandler.AcceptQuest(quest);
 		}
 	}
 }

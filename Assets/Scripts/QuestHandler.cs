@@ -53,7 +53,7 @@ public class QuestHandler : MonoBehaviour
 				case Quest.State.DONE:
 					break;
 				case Quest.State.IN_PROGRESS:
-					SetQuestInProgress(questInstance);
+
 					break;
 				case Quest.State.PENDING:
 					break;
@@ -75,10 +75,8 @@ public class QuestHandler : MonoBehaviour
 		// Reset all quests.
 	}
 
-	void SetQuestInProgress(Quest quest)
+	public void AcceptQuest(Quest quest)
 	{
-		int questLocationIndex = (int)quest.location;
-		GameObject.Destroy(areas[questLocationIndex].transform.Find(quest.questDescription));
 	}
 
 	void SetQuestPending(Quest quest)
