@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
-  m_Name: New Quest 2
+  m_Name: 3
   m_EditorClassIdentifier: 
-  questDescription: 
-  rewardPoints: 0
+  questDescription: Go socialize with a stranger.
+  rewardPoints: 3
   rewardText: 
-  location: 0
+  location: 2

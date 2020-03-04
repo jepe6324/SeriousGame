@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: 2.Cleaning
   m_EditorClassIdentifier: 
-  questDescription: 
-  rewardPoints: 0
+  questDescription: Vacuum/scrub the floor.
+  rewardPoints: 2
   rewardText: 
   location: 0
