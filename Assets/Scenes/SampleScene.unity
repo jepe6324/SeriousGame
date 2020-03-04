@@ -1080,10 +1080,50 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
         type: 3}
       propertyPath: m_text
       value: Lively Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acfa836e377e89a4c94b24851e78a2cb, type: 3}
@@ -2589,6 +2629,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 230174153}
     m_Modifications:
+    - target: {fileID: 4397743329462589795, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397743329462589795, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397743329462589795, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397743329462589795, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397743329462589795, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5688361850653619108, guid: acfa836e377e89a4c94b24851e78a2cb,
         type: 3}
       propertyPath: m_Name
@@ -2709,10 +2774,50 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
         type: 3}
       propertyPath: m_text
       value: Soothing Waterfall
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acfa836e377e89a4c94b24851e78a2cb, type: 3}
@@ -3192,10 +3297,50 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
         type: 3}
       propertyPath: m_text
       value: Crowded Capital
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acfa836e377e89a4c94b24851e78a2cb, type: 3}
@@ -3602,6 +3747,7 @@ MonoBehaviour:
   - {fileID: 231521040}
   - {fileID: 1000912390}
   - {fileID: 895844759}
+  adventureLog: {fileID: 0}
   questPrefab: {fileID: 811834203024451105, guid: c650a72c4b46b394e9cb0b52040a38d5,
     type: 3}
 --- !u!4 &1397140461
@@ -4445,10 +4591,50 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361851556121390, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
         type: 3}
       propertyPath: m_text
       value: Harsh Volcano
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688361852237572469, guid: acfa836e377e89a4c94b24851e78a2cb,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acfa836e377e89a4c94b24851e78a2cb, type: 3}

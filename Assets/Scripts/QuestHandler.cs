@@ -18,6 +18,7 @@ public class QuestHandler : MonoBehaviour
 
 	public Quest[] quests; // The scriptable objects of the quests, do not write to this one.
 	public GameObject[] areas;
+	public GameObject adventureLog;
 	public GameObject questPrefab;
 
 	private Quest[] questInstances; // Creates instances of the quests that we can use.
@@ -77,6 +78,7 @@ public class QuestHandler : MonoBehaviour
 
 	public void AcceptQuest(Quest quest)
 	{
+		// Create the quest box for handing it in the activity log
 	}
 
 	void SetQuestPending(Quest quest)
