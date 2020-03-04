@@ -28,4 +28,6 @@ Prioritized
 	Text/Image rewards for completing tasks.	
 	
 Task
-	
+	Create a handinVersion of questPrefab
+	Spawn one when a quest becomes accepted
+	When marked as done flag quest, display text and give rewards.

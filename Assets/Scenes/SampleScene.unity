@@ -3747,7 +3747,7 @@ MonoBehaviour:
   - {fileID: 231521040}
   - {fileID: 1000912390}
   - {fileID: 895844759}
-  adventureLog: {fileID: 0}
+  adventureLog: {fileID: 1907084040}
   questPrefab: {fileID: 811834203024451105, guid: c650a72c4b46b394e9cb0b52040a38d5,
     type: 3}
 --- !u!4 &1397140461
