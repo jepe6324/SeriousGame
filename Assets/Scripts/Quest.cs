@@ -9,10 +9,11 @@ public class Quest : ScriptableObject
 	{
 		PENDING,
 		IN_PROGRESS,
-		DONE
+		DONE,
+		DEFAULT
 	}
 
-	public enum Area
+	public enum Location
 	{
 		VOLCANOE,
 		FOREST,
@@ -23,12 +24,22 @@ public class Quest : ScriptableObject
 	public string questDescription;
 	public int rewardPoints; // Not sure if int is the right thing to go for here, but it will do for now.
 	public string rewardText;
-	public Area region;
+	public Location location;
 
-	[HideInInspector] public State currentState = State.PENDING;
+	private State currentState = State.DEFAULT;
 
-	void Reset()
+	public void Reset()
 	{
-		currentState = State.PENDING;
+		currentState = State.DEFAULT;
+	}
+
+	public State GetCurrentState()
+	{
+		return currentState;
+	}
+
+	public void SetState(State state)
+	{
+		currentState = state;
 	}
 }

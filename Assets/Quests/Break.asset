@@ -15,5 +15,4 @@ MonoBehaviour:
   questDescription: Take a break
   rewardPoints: 1
   rewardText: 'Tip: Write in a notepad then paste in'
-  region: 0
-  currentState: 0
+  location: 3

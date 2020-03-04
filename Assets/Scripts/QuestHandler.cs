@@ -16,21 +16,77 @@ public class QuestHandler : MonoBehaviour
 	 * I guess this should also give the player the reward for completed quests.
 	 */
 
-	public Quest[] quests;
+	public Quest[] quests; // The scriptable objects of the quests, do not write to this one.
+	public GameObject[] areas;
+	public GameObject questPrefab;
+
+	private Quest[] questInstances; // Creates instances of the quests that we can use.
+
     // Start is called before the first frame update
     void Start()
-    {
-        
-    }
+	{
+		questInstances = new Quest[quests.Length];
+
+		for (int i = 0; i < quests.Length; i++)
+		{
+			if (quests[i] == null)
+			{
+				continue;
+			}
+			
+			questInstances[i] = ScriptableObject.Instantiate(quests[i]);
+		}
+	}
 
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (Quest questInstance in questInstances)
+		{
+			if (questInstance == null)
+			{
+				continue;
+			}
+
+			switch (questInstance.GetCurrentState())
+			{
+				case Quest.State.DONE:
+					break;
+				case Quest.State.IN_PROGRESS:
+					SetQuestInProgress(questInstance);
+					break;
+				case Quest.State.PENDING:
+					break;
+				case Quest.State.DEFAULT:
+					SetQuestPending(questInstance);
+					break;
+				default:
+					break;
+			}
+		}
     }
 
 	public void Reset()
 	{
+		foreach (Quest questInstance in questInstances)
+		{
+			questInstance.Reset();
+		}
 		// Reset all quests.
+	}
+
+	void SetQuestInProgress(Quest quest)
+	{
+		int questLocationIndex = (int)quest.location;
+		GameObject.Destroy(areas[questLocationIndex].transform.Find(quest.questDescription));
+	}
+
+	void SetQuestPending(Quest quest)
+	{
+		int questLocationIndex = (int)quest.location;   // Get the location where it is supposed to reside
+		GameObject clone = Instantiate(questPrefab, areas[questLocationIndex].transform.Find("QuestBoxAnchor")); // Create an instance of the quest gameobject
+		clone.name = quest.questDescription;
+		clone.GetComponent<QuestObjectSetup>().Setup(quest); // Run the setup of the quest
+		quest.SetState(Quest.State.PENDING);	// Set the internal state to pending
 	}
 }
