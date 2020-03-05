@@ -98,7 +98,7 @@ public class CompanionLogHandler : MonoBehaviour
 		}
 		if (feedingCounter == 12)
 		{
-			textBoxMother.DisplayTextBox(feedingLoreText, feedingLoreTitle);
+			textBoxMother.DisplayTextBox(feedingLoreTitle, feedingLoreText);
 		}
 	}
 }
