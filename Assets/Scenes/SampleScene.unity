@@ -6373,6 +6373,9 @@ MonoBehaviour:
   waterfallText: {fileID: 1933099923}
   companionStandardSprite: {fileID: 1177039422}
   companionMunchSprite: {fileID: 2073175467}
+  textBoxMother: {fileID: 1832260338}
+  feedingLoreText: 
+  feedingLoreTitle: 
 --- !u!4 &1853863528
 Transform:
   m_ObjectHideFlags: 0

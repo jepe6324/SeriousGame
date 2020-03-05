@@ -96,5 +96,9 @@ public class CompanionLogHandler : MonoBehaviour
 			//Do the things to make the mascot happy here
 			companionMunchTimer = 0.7f;
 		}
+		if (feedingCounter == 12)
+		{
+			textBoxMother.DisplayTextBox(feedingLoreText, feedingLoreTitle);
+		}
 	}
 }
