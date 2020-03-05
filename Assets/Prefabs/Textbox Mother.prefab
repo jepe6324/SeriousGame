@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -10.000015, y: 0}
-  m_SizeDelta: {x: 245, y: 0}
+  m_AnchoredPosition: {x: -9.1749, y: 0}
+  m_SizeDelta: {x: 294.05, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &2840106195771293917
 CanvasRenderer:
@@ -79,19 +79,38 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 31bb2fe921dc8084893cd40c8028477c, type: 3}
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 0
-    m_AlignByGeometry: 1
+    m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: What the fuck did you just fucking say about me, you little bitch? I'll
+    have you know I graduated top of my class in the Navy Seals, and I've been involved
+    in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I
+    am trained in gorilla warfare and I'm the top sniper in the entire US armed forces.
+    You are nothing to me but just another target. I will wipe you the fuck out with
+    precision the likes of which has never been seen before on this Earth, mark my
+    fucking words. You think you can get away with saying that shit to me over the
+    Internet? Think again, fucker. As we speak I am contacting my secret network
+    of spies across the USA and your IP is being traced right now so you better prepare
+    for the storm, maggot. The storm that wipes out the pathetic little thing you
+    call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can
+    kill you in over seven hundred ways, and that's just with my bare hands. Not
+    only am I extensively trained in unarmed combat, but I have access to the entire
+    arsenal of the United States Marine Corps and I will use it to its full extent
+    to wipe your miserable ass off the face of the continent, you little shit. If
+    only you could have known what unholy retribution your little "clever" comment
+    was about to bring down upon you, maybe you would have held your fucking tongue.
+    But you couldn't, you didn't, and now you're paying the price, you goddamn idiot.
+    I will shit fury all over you and you will drown in it. You're fucking dead,
+    kiddo.
 --- !u!1 &621343405625382895
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 331.6, y: 496.5}
+  m_AnchoredPosition: {x: -0.000005722, y: 0.00051116943}
+  m_SizeDelta: {x: 312.4, y: 465.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4169663209123352948
 MonoBehaviour:
@@ -150,7 +169,7 @@ MonoBehaviour:
   m_Inertia: 1
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 1
-  m_Viewport: {fileID: 0}
+  m_Viewport: {fileID: 259606968461845865}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 5855061304426335798}
   m_HorizontalScrollbarVisibility: 0
@@ -194,8 +213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 253}
-  m_SizeDelta: {x: 360.9, y: 46.4}
+  m_AnchoredPosition: {x: 8, y: 277}
+  m_SizeDelta: {x: 312.4, y: 46.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7197268627788879663
 CanvasRenderer:
@@ -224,19 +243,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 31bb2fe921dc8084893cd40c8028477c, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Title or summin
+  m_Text: <b>Title or summin</b>
 --- !u!1 &2266218925032480307
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.69999695, y: -29.849995}
-  m_SizeDelta: {x: -73, y: -275.9}
+  m_AnchoredPosition: {x: 0, y: -7.100006}
+  m_SizeDelta: {x: -92.6, y: -185.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &749585686341591756
 CanvasRenderer:
@@ -291,13 +310,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2266218925032480307}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.003921569}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -353,14 +372,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2364124097162584646}
+  m_Children:
+  - {fileID: 7139719652319861596}
+  m_Father: {fileID: 8470817555272011576}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7577154815944804352
 CanvasRenderer:
@@ -428,14 +448,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2364124097162584646}
+  - {fileID: 7693814060486735635}
   m_Father: {fileID: 7190302910558145529}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174.01, y: 0.000005722}
-  m_SizeDelta: {x: 20, y: 496.5}
+  m_AnchoredPosition: {x: 147, y: 0.0000076293945}
+  m_SizeDelta: {x: 18.3, y: 465.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2207053838939225134
 CanvasRenderer:
@@ -713,7 +733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: -336}
+  m_AnchoredPosition: {x: 16, y: -280}
   m_SizeDelta: {x: 162.8, y: 61.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1512809706103415336
@@ -841,7 +861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 57.1, y: 15.36}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7379698759507837961
@@ -858,7 +878,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: {fileID: 9091899552436412281}
   mainText: {fileID: 5361385383805131409}
-  buttonText: {fileID: 0}
 --- !u!1 &7174459178276375695
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +915,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 434, y: 791}
+  m_SizeDelta: {x: 405, y: 651.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8448486140781393790
 CanvasRenderer:
@@ -934,7 +953,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &8925404379210326689
+--- !u!1 &7647543783999090207
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -942,31 +961,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2364124097162584646}
+  - component: {fileID: 7139719652319861596}
   m_Layer: 5
-  m_Name: Sliding Area
+  m_Name: Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2364124097162584646
+--- !u!224 &7139719652319861596
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8925404379210326689}
+  m_GameObject: {fileID: 7647543783999090207}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7693814060486735635}
-  m_Father: {fileID: 8470817555272011576}
+  m_Children: []
+  m_Father: {fileID: 7693814060486735635}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
