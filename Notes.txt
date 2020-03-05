@@ -31,3 +31,12 @@ Task
 	Create a handinVersion of questPrefab
 	Spawn one when a quest becomes accepted
 	When marked as done flag quest, display text and give rewards.
+
+Added on 5th March 01:08.
+	Prioritized Alexander:
+	Fix QuestHandler as it broke when follwing what Jesper said.
+	Add Crystal Count. Font does not support numbers.
+	Button for Companion does not work.
+	Close + feed button not implemented. FoodSlider is working however.
+	Add FoodSlider Reward as quest is complete.
+   Double check so companion changes state from happy to eating when fed.
