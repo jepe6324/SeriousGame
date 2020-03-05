@@ -6421,8 +6421,21 @@ MonoBehaviour:
   companionStandardSprite: {fileID: 1177039422}
   companionMunchSprite: {fileID: 2073175467}
   textBoxMother: {fileID: 1832260338}
-  feedingLoreText: 
-  feedingLoreTitle: 
+  feedingLoreText: "<b>I hope you\u2019ve been enjoying my retellings of your brave
+    adventures! I know - I know, some things aren\u2019t exaaactly the way you said
+    you got your hands on those crystals, but that can be our little secret. Are
+    you surprised you always get crystals from people? Well don\u2019t be! I was
+    the one who spread the word that it\u2019s the gift people find the most joy
+    in these days, so if people find them lying around in nature, they\u2019ll definitely
+    eventually find your way to your hand with the pace you\u2019re helping folk
+    in. Clever plan, no?  <br><br> But now\u2019s not the time to slack off, I can
+    sense many more in these lands, and I can\u2019t wait any longer for them to
+    find their way back to me. I know you\u2019re curious to know what I need these
+    crystals for, but now\u2019s not the time. Some things should be a surprise,
+    no? For now, all I need is for you to have faith in your trusty friend! Oh, and
+    collecting crystals. Mostly crystals actually. And break them down into food,
+    yes, that\u2019s all I need! </b> "
+  feedingLoreTitle: Spoonie
 --- !u!4 &1853863528
 Transform:
   m_ObjectHideFlags: 0

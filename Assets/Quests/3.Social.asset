@@ -14,5 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Go socialize with a stranger.
   rewardPoints: 3
-  rewardText: 
+  rewardText: '<b>As you entered the city, there seemed to be some sort of event
+    going on based on the sheer amount of people on the streets. Many families seemed
+    to be in a rush as they pushed their way through the crowd. There was however
+    one child who caught your attention, for she was alone, and standing quite a
+    ways off from everyone else. You approached her and asked if she was lost, and
+    she said she ran away because what her parents had been doing was boring. At
+    first you tried to convince her that you could help finding them, but she was
+    clearly quite stubborn. So instead you decided to sit down with her, telling
+    tales of your brave exploits. Everything from finding magical creatures and hidden
+    shrines to seasonal events with your friends. The little girl stared at you in
+    awe as she heard tale after tale of things she thought were mere fairy tales.
+    It took a while, but her parents eventually came for her with a worried look
+    on their faces. They were quickly caught up to speed and they thanked you from
+    the bottom of their hearts for looking over their daughter. Before they left,
+    the girl ran up to you, told you to reach out your hand, and in it she placed
+    a crystal. </b> '
   location: 2

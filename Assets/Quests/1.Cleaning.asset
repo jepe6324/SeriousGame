@@ -14,5 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Do Laundry
   rewardPoints: 1
-  rewardText: 
-  location: 0
+  rewardText: "\u201CLaundry day! Laundry day!\u201D, the village children exclaimed
+    while skipping about. You exited the inn to see most of the village gathered
+    with baskets of clothes and large buckets of water. The mother of the children
+    you had previously heard hushed them and whispered something in their ears. After
+    a few seconds the entire village seemed to have gone silent. The silence was
+    held for mere moments before singing and laughter erupted from not only the children,
+    but the adults and elderly too. With smiles on their faces and hips swinging
+    to the beat of a newly arrived drummer, they grouped up in a long row.  <br><br>
+    \u201CHey, ho! Hey, ho! Laundry day is here, hey! Cleaning\u2019s what we do,
+    ho!\u201D <br><br> The children handed the baskets of dirty clothes to each other,
+    moving them towards the elderly who then cleaned them in the buckets, before
+    letting the adults hang the clothes up to dry. A smile creeped up on your face,
+    and your heart warmed up thinking about how they made a normally dull task into
+    something truly fun. It didn\u2019t take long for you to join them, and welcoming
+    they were indeed. Once all clothes had been hung up on the long strings the woman
+    next to you gave you a big bear hug, thanking you for your help. In your hand
+    she left you a crystal, and you realised that maybe laundry day wasn\u2019t that
+    bad after all. </b> "
+  location: 1

@@ -14,5 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Take a Walk
   rewardPoints: 1
-  rewardText: 
-  location: 1
+  rewardText: "<b> Having been in this world the citizens call \u201CThe Realm\u201D
+    for quite a while now, you thought you had encountered all there is to see. That
+    is, until the night you awoke to the sound of what seemed to be a bell, lightly
+    jingling outside your window. As you looked outside you could see a dim light,
+    seemingly flying in circles just a few meters away from the inn.  <br><br> Now
+    outside, you realised the thing you saw was in fact a fae. Judging by the jingling
+    you quickly presumed that it was beckoning for you to follow. She stayed neither
+    no close, nor too far away from you as she guided you across ancient bridges
+    and through groves bustling with fireflies. There was only a feeling of awe -
+    awe that this world you had gotten used to seeing everyday still had so many
+    wonders left to be seen. Before you knew it, the fae was nowhere to be seen.
+    Your mere surroundings had been enough to enchant you, but now it was time to
+    go home.  <br><br> As you went to bed, you felt something in your right-most
+    pocket\u2026 As you pulled it out you saw a crystal shimmering in the moonlight
+    that the window provided you. \u201CSurely a gift from the fae\u201D, you thought
+    as sleep once more embraced you. </b> "
+  location: 0

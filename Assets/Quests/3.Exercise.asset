@@ -14,5 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Visit a gym
   rewardPoints: 3
-  rewardText: 
-  location: 1
+  rewardText: "<b>The tournaments up in the mountains were popular amongst races
+    of all kinds, but they had always been separated so that humans fought humans,
+    goblins fought goblins and so on. But this year was different, for the races
+    actually came together to host the biggest tournament yet, and all the winners
+    from other tournaments would be there! You were invited as the champion of mankind,
+    an invitation you would hardly deny. To climb your way to the top, you would
+    have to go through fierce battles against humans, goblins, giants, dwarves, and
+    orcs. What none expected was that you and you alone would bring a sparring sword
+    with a blunt edge. All goblin warriors knew of you well and gave up without fighting.
+    The dwarves on the other hand figured they had a chance with their sturdy axes,
+    but alas, they were too slow. Orcs, ferocious as they are charged immediately
+    upon stepping foot in the arena, but a quick side-step and foot in front of the
+    front-line\u2019s path made him fall, which in turn led to the rest falling over
+    just the same.  <br><br> The final battle was a lone giant, not because there
+    were few of them, but because the arena simply could not fit more. His huge fist
+    soared through the air, but to your surprise it changed its trajectory at the
+    last second, instead hitting the sand with full force. As the giant began to
+    run, he tripped on his own foot and fell to the ground next to you. With a soft
+    tone and tear-filled eyes he said, \u201CPlease, I didn\u2019t want to fight
+    anyone in the first place. I had hoped you would give up as soon as I entered,
+    like my opponents before you, but you stood your ground even as my fist was about
+    to hit. Boy, that was scary... If you pretend to beat me I will give you a crystal
+    I stored away.\u201D <br>You gladly accepted the deal, jumped on top of his back
+    and proclaimed victory. </b> "
+  location: 0

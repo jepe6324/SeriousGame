@@ -14,5 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Try a new dish
   rewardPoints: 2
-  rewardText: 
+  rewardText: "<b>The Day of the Feast had come once more, and the villagers were
+    beginning to come together. Some came with rice, others with fish, beef, or vegetables.
+    Before you knew it, all the town\u2019s kitchens and campfires were used for
+    cooking dishes you had never seen. Song and play made the atmosphere progressively
+    livelier as the pleasant aromas filled the evening air. Many of these creatures
+    were clearly not of the world you came from, which made you all the more curious
+    about what they were making. A few hours and several taste-tests later, the main
+    dishes were finally done. You spared no time in trying as much as you could,
+    and every time your taste-buds came in contact with something new, the thought
+    that nothing could ever taste better came up, until each new dish that is. <br><br>
+    Full and satisfied, you eventually wrapped some of your favourites into a bag
+    for future travels. The sun had long gone down and it was time to go to bed.
+    One your way you heard the whimpering of a nearby dog, and soon thereafter you
+    saw a dog leashed to a signpost. You realised she must\u2019ve been forgotten
+    amongst the town bustling, likely without food. You revealed your bag of food,
+    opened it up and left it next to her. The whimpering immediately stopped and
+    was replaced by tail wagging. But\u2026 before the food was devoured she barked
+    towards the signpost, and behind it you saw a crystal. You gladly accepted the
+    payment and went on your way. </b> "
   location: 3

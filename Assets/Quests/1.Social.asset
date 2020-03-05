@@ -14,5 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Go Shopping
   rewardPoints: 1
-  rewardText: 
+  rewardText: "<b>Standing at the edges of the city, you couldn\u2019t help but get
+    a feeling of awe. The tall brick walls encompassed it in its entirety apart from
+    two guarded roads in and out. Only the capitol building was visible from the
+    outside, towering over the rest of the city. The streets were certainly busy,
+    with food stands, jewelers and tailors stretching from one side of the city to
+    another. Avoiding the temptation of joining the mass was quite difficult, but
+    you eventually snapped out of it and pushed through the crowd.  <br><br> On the
+    other side was your goal: the blacksmith. He was a burly man with a light layer
+    of coal over his face. Half the shop was a weapon-shop run by his daughter. She
+    showed you a wide array of different blades, some as light as a feather, others
+    heavy enough to cleave through a tree. It would be a mesmerising place for any
+    swordsman, and you were certainly no exception. At long last, you held in your
+    hand what you saw as nothing less than the perfect sword. The grip comfortably
+    rested in your hand, encompassed by the guard and pommel as though it was made
+    for you. It was an instant purchase, and both you and the clerk naturally couldn\u2019t
+    be more satisfied. Only the test remained - one can\u2019t leave a blacksmith\u2019s
+    without testing a blade\u2019s merit after all. You were told that no-one had
+    been able to cut through the boulder behind you, so that is - of course - what
+    you decided to do. A well-aimed strike later and the boulder was two, and to
+    your surprise you saw something glimmer inside\u2026 As you picked it up you
+    immediately recognised the familiar sight of a crystal! The clerk let you keep
+    it as a gift for being the first to ever cut through the boulder. </b> "
   location: 2

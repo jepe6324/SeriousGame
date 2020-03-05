@@ -14,5 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Call family or friends.
   rewardPoints: 2
-  rewardText: 
+  rewardText: "<b>\u201CWhy hello again, best friend o\u2019 mine! I didn\u2019t
+    expect to see you so soon!\u201D, exclaimed Spoons as you entered the inn where
+    the two of you resided. \u201CMissed me already? Oh there\u2019s really no need
+    to explain, I have that effect on people.\u201D, he continued without missing
+    a beat. He waited for you to sit down next to him, then carried on, \u201CI may
+    be weaker than I once was, but that doesn\u2019t mean you can underestimate me.
+    Not even dragon\u2019s are a match for me, and I\u2019m starting to think that
+    their fear of me is why I\u2019ve never encountered one myself. Not surprising,
+    since with you on my team I\u2019ll be back to my former self in no-time!\u201D
+    He struck a few poses and grinned as though he just accomplished a grand feat,
+    then sat down again. There was silence for a few seconds before he continued,
+    \u201CI\u2026 don\u2019t take what you do for granted, you know? Seeing your
+    efforts made me go out into the world myself to find crystals. I may not be as
+    strong as you are, but I promise to catch up with soon, then we\u2019ll be partners
+    for real!\u201D<br> He then went over to the chest where he keeps his crystals,
+    took one out and said, \u201CI know it\u2019s supposed to be the other way around,
+    but you took the time to meet me today, and I don\u2019t know any other way of
+    showing my appreciation\u2026 so here you go. I\u2019ll prepare something better
+    next time!\u201D </b> "
   location: 2

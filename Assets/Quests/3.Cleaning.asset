@@ -14,9 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Do Dishes
   rewardPoints: 3
-  rewardText: At the harsh volcano, you see some salamanders who's scales have been
-    stained with oil. They look like they are trying to scrape it off on a rock.
-    Feeling empathic you walk up to the creatures and help them clean themselves
-    up. After they are clean they scurry away quickly, after a while they return
-    with a gem that they put at your feet.
-  location: 0
+  rewardText: "<b>During your wanders, you\u2019ve seen peculiar locations a plenty,
+    but few as strange as one of the rivers that flowed out into the waterfall... 
+    <br><br> It had been a long time since you had cleaned your equipment, and you
+    just so happened to be next to a clear river. Your armour and sword clanked as
+    they hit the ground. It had been many hours since you last took them off, so
+    the feeling of relief as the fresh air cooled your warm body was more than welcome.
+    The cuirass was the first to be cleaned, as rust had started to bite into the
+    upper section after a few days of rain. A light layer of golden brown floated
+    to the surface as it was submerged. At first the assumption could be made that
+    it was dirt, but once you brought the cuirass up again, no rust could be seen
+    at all. In fact, the dents and scratches were completely gone too! It didn\u2019t
+    take long until every piece of gear had been submerged with the same result.
+    Finally, you took out an empty flask and filled it with water. Once morning came
+    the day after you took the flask out of your bag, but there was now nothing but
+    a slightly damp crystal inside. You tried finding the river again, but there
+    wasn\u2019t a trace of it ever being there. </b> "
+  location: 1

@@ -14,5 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Exercise
   rewardPoints: 2
-  rewardText: 
-  location: 1
+  rewardText: "<b>Wham! Your wooden training sword hit your opponent square in the
+    stomach. He fell to the ground but swiftly bounced back on his feet. \u201CWow,
+    I really stood no chance!\u201D, he exclaimed in a surprisingly excited tone
+    in his voice, especially for a man who was just struck to the ground. \u201CNever
+    in my life have I seen a technique like yours! There\u2019s no doubt in my heart
+    that you are capable of winning the Tournament of Blades. That\u2019s not to
+    say that you should let down your guard of course, I was merely your first opponent!\u201D. 
+    <br> Opponent after opponent bit the dust as your blade danced across the arena.
+    Only the final battle remained, and judging by the cheers it was far from being
+    a nobody.  <br><br> Thump! Thump! Thump! The ground shook as the footsteps of
+    this beast of a man approached you. Before you knew it he towered over you, and
+    you could see that he was built like an ox. He grinned from ear to ear, then
+    brought down his sword. Or well, referring to it as a sword was almost a stretch,
+    it looked more like he had cut down a small tree, sharpened the edges and said
+    \u201Cdone\u201D. You decided that the best thing to do would be to finish this
+    quickly, so before he had any time to react you dashed towards his weapon and
+    leaped onto it to get aerial momentum. You braced your sword arm for impact,
+    but as you did his free arm swung through the air, attempting to swat you down.
+    Without a moment\u2019s hesitation, you grabbed ahold of his forearm, swung yourself
+    around and kicked yourself off of it. The force of your kick accelerated you
+    towards his knee, and a well-aimed strike at the back of his knee later, he was
+    felled. But you had no time to spare, so you jumped towards his head, using his
+    firm chest for an extra boost. A split second your sword whipped through the
+    air, and - bam! The blade dug deeply into the sand next to his face.  <br><br>
+    Victory was yours, and the first place price: the crystal, was safe in the grasp
+    of your hand. </b> "
+  location: 0
