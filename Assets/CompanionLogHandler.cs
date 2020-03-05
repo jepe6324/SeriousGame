@@ -95,10 +95,10 @@ public class CompanionLogHandler : MonoBehaviour
 			feedingCounter++;
 			//Do the things to make the mascot happy here
 			companionMunchTimer = 0.7f;
-		}
-		if (feedingCounter == 12)
-		{
-			textBoxMother.DisplayTextBox(feedingLoreTitle, feedingLoreText);
+			if (feedingCounter == 12)
+			{
+				textBoxMother.DisplayTextBox(feedingLoreTitle, feedingLoreText);
+			}
 		}
 	}
 }
