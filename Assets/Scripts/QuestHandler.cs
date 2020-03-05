@@ -20,6 +20,7 @@ public class QuestHandler : MonoBehaviour
 	public GameObject[] areas;
 	public GameObject adventureLog;
 	public GameObject questPrefab;
+	public GameObject questHandInPrefab;
 
 	private Quest[] questInstances; // Creates instances of the quests that we can use.
 
@@ -79,7 +80,10 @@ public class QuestHandler : MonoBehaviour
 
 	public void AcceptQuest(Quest quest)
 	{
-		// Create the quest box for handing it in the activity log
+		GameObject clone = Instantiate(questHandInPrefab, adventureLog.transform.Find("QuestBoxAnchor"));
+		clone.name = quest.questDescription;
+		clone.GetComponent<QuestHandInHandler>().Setup(quest);
+		quest.SetState(Quest.State.IN_PROGRESS);
 	}
 
 	void SetQuestPending(Quest quest)

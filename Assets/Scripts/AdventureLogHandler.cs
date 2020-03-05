@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LocationPopupHandler : MonoBehaviour
+public class AdventureLogHandler : MonoBehaviour
 {
+	QuestHandler questHandler;
 	List<Transform> questBoxes;
 	float questBoxDistance = -75.0f;
 
 	public Transform questBoxAnchor;
-	
+
     // Start is called before the first frame update
     void Start()
     {
-		
+		questHandler = FindObjectOfType<QuestHandler>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+	// Update is called once per frame
+	void Update()
+	{
 		for (int i = 0; i < questBoxAnchor.childCount; i++)
 		{
 			Transform child = questBoxAnchor.GetChild(i);
@@ -28,3 +29,10 @@ public class LocationPopupHandler : MonoBehaviour
 		}
 	}
 }
+
+
+/*
+ * Wants to get told by QuestHandler to put a quest here marked for completion.
+ * I think the quest handin in objects will tell this object that a quest is completed
+ * Wants to to display the text popup for handing in a quest.
+ */
