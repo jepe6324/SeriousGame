@@ -26,8 +26,6 @@ public class TextboxCreator : MonoBehaviour
 
 	public void DisplayTextBox()
 	{
-		titleString = titleString.Replace("<br>", "\n"); // Inserts new line
-		mainString = mainString.Replace("<br>", "\n");
 		buttonString = buttonString.Replace("<br>", "\n");
 		if (MotherBox != null)
 			MotherBox.DisplayTextBox(titleString, mainString);

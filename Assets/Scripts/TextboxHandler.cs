@@ -27,6 +27,8 @@ public class TextboxHandler : MonoBehaviour
 
 	public void DisplayTextBox(string title, string main) // Displays the textbox with a designated text for every textbox.
 	{
+		title = title.Replace("<br>", "\n"); // Inserts new line
+		main = main.Replace("<br>", "\n");
 		titleText.text = title;
 		mainText.text = main;
 		gameObject.SetActive(true);
