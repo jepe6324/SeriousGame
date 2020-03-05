@@ -32,6 +32,7 @@ public class QuestHandler : MonoBehaviour
 		{
 			if (quests[i] == null)
 			{
+				quests[i].Reset();
 				continue;
 			}
 			
