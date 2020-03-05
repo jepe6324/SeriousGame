@@ -15,7 +15,7 @@ public class Quest : ScriptableObject
 
 	public enum Location
 	{
-		VOLCANOE,
+		VOLCANO,
 		FOREST,
 		CITY,
 		WATERFALL
