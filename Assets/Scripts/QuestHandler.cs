@@ -78,8 +78,8 @@ public class QuestHandler : MonoBehaviour
 		foreach (Quest questInstance in questInstances)
 		{
 			questInstance.Reset();
-			companionLogHandler.Reset();
 		}
+		companionLogHandler.Reset();
 		// Reset all quests.
 	}
 
