@@ -12,6 +12,7 @@ public class CompanionLogHandler : MonoBehaviour
 	float companionMunchTimer;
 
 	int foodAmount;
+	int feedingCounter;
 
 	public BarHandler bar;
 
@@ -23,6 +24,9 @@ public class CompanionLogHandler : MonoBehaviour
 	public Image companionStandardSprite;
 	public Image companionMunchSprite;
 
+	public TextboxHandler textBoxMother;
+	public string feedingLoreText;
+	public string feedingLoreTitle;
 
 	// Start is called before the first frame update
 	void Start()
@@ -88,7 +92,7 @@ public class CompanionLogHandler : MonoBehaviour
 		if (foodAmount > 0)
 		{
 			foodAmount--;
-
+			feedingCounter++;
 			//Do the things to make the mascot happy here
 			companionMunchTimer = 0.7f;
 		}
