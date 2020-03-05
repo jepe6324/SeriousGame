@@ -23,11 +23,15 @@ public class QuestHandler : MonoBehaviour
 	public GameObject questHandInPrefab;
 
 	private Quest[] questInstances; // Creates instances of the quests that we can use.
+	private AdventureLogHandler adventureLogHandler;
+	private CompanionLogHandler companionLogHandler;
 
-    // Start is called before the first frame update
-    void Start()
+	// Start is called before the first frame update
+	void Start()
 	{
 		questInstances = new Quest[quests.Length];
+		adventureLogHandler = FindObjectOfType<AdventureLogHandler>();
+		companionLogHandler = FindObjectOfType<CompanionLogHandler>();
 
 		for (int i = 0; i < quests.Length; i++)
 		{
@@ -74,6 +78,7 @@ public class QuestHandler : MonoBehaviour
 		foreach (Quest questInstance in questInstances)
 		{
 			questInstance.Reset();
+			companionLogHandler.Reset();
 		}
 		// Reset all quests.
 	}
@@ -84,6 +89,29 @@ public class QuestHandler : MonoBehaviour
 		clone.name = quest.questDescription;
 		clone.GetComponent<QuestHandInHandler>().Setup(quest);
 		quest.SetState(Quest.State.IN_PROGRESS);
+	}
+
+	public void HandInQuest(Quest quest)
+	{
+		switch(quest.location)
+		{
+			case Quest.Location.VOLCANO:
+				companionLogHandler.IncrementQuest("Volcano");
+				break;
+			case Quest.Location.FOREST:
+				companionLogHandler.IncrementQuest("Forest");
+				break;
+			case Quest.Location.CITY:
+				companionLogHandler.IncrementQuest("City");
+				break;
+			case Quest.Location.WATERFALL:
+				companionLogHandler.IncrementQuest("Waterfall");
+				break;
+			default:
+				break;
+		}
+		adventureLogHandler.DisplayRewardText(quest);
+		quest.SetState(Quest.State.DONE);
 	}
 
 	void SetQuestPending(Quest quest)

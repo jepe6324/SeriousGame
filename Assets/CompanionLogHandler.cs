@@ -10,16 +10,48 @@ public class CompanionLogHandler : MonoBehaviour
 	int completedQuestsCity;
 	int completedQuestsWaterfall;
 
-	public BarHandler bar;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	int completedQuestsTotal;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public BarHandler bar;
+	// Start is called before the first frame update
+	void Start()
+	{
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		if (bar != null)
+		{
+			bar.setCurrentValue(completedQuestsTotal);
+		}
+	}
+
+	public void IncrementQuest(string location)
+	{
+		completedQuestsTotal++;
+
+		switch (location)
+		{
+			case "Volcano":
+				completedQuestsVolcano++;
+				break;
+			case "Forest":
+				completedQuestsForest++;
+				break;
+			case "City":
+				completedQuestsCity++;
+				break;
+			case "Waterfall":
+				completedQuestsWaterfall++;
+				break;
+			default:
+				break;
+		}
+	}
+
+	public void Reset()
+	{
+		completedQuestsTotal = 0;
+	}
 }

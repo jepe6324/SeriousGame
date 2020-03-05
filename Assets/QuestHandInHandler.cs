@@ -10,13 +10,11 @@ public class QuestHandInHandler : MonoBehaviour
 
 	private Quest quest;
 	private QuestHandler questHandler;
-	private AdventureLogHandler adventureLog;
 
 	// Start is called before the first frame update
 	void Start()
 	{
 		questHandler = FindObjectOfType<QuestHandler>();
-		adventureLog = FindObjectOfType<AdventureLogHandler>();
 	}
 
 	// Update is called once per frame
@@ -42,9 +40,8 @@ public class QuestHandInHandler : MonoBehaviour
 	{
 		if (quest != null)
 		{
+			questHandler.HandInQuest(quest);
 			Destroy(gameObject);
-			quest.SetState(Quest.State.DONE);
-			adventureLog.DisplayRewardText(quest);
 		}
 	}
 }

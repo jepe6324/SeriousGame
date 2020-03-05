@@ -25,12 +25,12 @@ public class BarHandler : MonoBehaviour
 		bar.fillAmount = fillAmount;
 	}
 
-	void setCurrentValue(float value)
+	public void setCurrentValue(float value)
 	{
 		currentValue = value;
 	}
 
-	void setMaxValue(float value)
+	public void setMaxValue(float value)
 	{
 		maxValue = value;
 	}
