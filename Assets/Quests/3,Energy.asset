@@ -14,5 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Eat 3 meals in a day.
   rewardPoints: 3
-  rewardText: 
+  rewardText: "<b>On your way to the waterfall, you came across a merchant with a
+    huge backpack. He stopped and talked to you as you both took a moment\u2019s
+    break on your travels. But it was eventually time to leave, and you wandered
+    back to the road together. Before you parted ways, he offered you part of his
+    supply: a small jar of exotic spices. You thanked him, and returned to your travels.
+    Intrigued, you took out your lunch and used some of the spice. Your eyes widened,
+    the taste was unbelievable! You kept pouring more, but the taste was never overwhelming.
+    Once dinner came, the process was repeated with the same effect.  <br><br> As
+    the day came to a close, you took out the third and final snack you had brought
+    and tried pouring more of the spice on it. Only a little came out, much to your
+    dismay. You looked in the jar to see if it was possible to scrape some off the
+    sides. It was nearly empty, but there still seemed to be a lump of spice at the
+    bottom. You reached in to break it apart, but it was as hard as stone. Taking
+    it out and dusting it off, you noticed that it wasn\u2019t a lump of spice at
+    all, but a crystal! You figured the crystal must\u2019ve been the secret ingredient
+    that made it so flavourful.  </b> "
   location: 3

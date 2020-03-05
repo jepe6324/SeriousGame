@@ -14,5 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Hydrate
   rewardPoints: 1
-  rewardText: 'Tip: Write in a notepad then paste in'
+  rewardText: "<b>You didn\u2019t know how long you had wandered through the drylands,
+    but you were desperate to get out as soon as possible. Your steps eventually
+    slowed down as fatigue set in, but even with your head held low you wandered.
+    That is until you finally stepped on something immediately recognisable: grass.
+    There was greenery as far as your eyes could see, the perfect duality to the
+    dry wastes you arrived from. Hope finally came back and your pace increased.
+    Your eyes darted left and right, a river, the bank of a sea, or even a puddle
+    of water was all you desired.  <br><br> Suddenly: there it was, a huge grove
+    unlike anything you had ever seen, with a lake surrounded by lush spruces. You
+    spared no time in rushing down, dunking head first into the cold surface of the
+    water. With no consideration for your breath you drank and drank. Never had you
+    had water as good as from this lake: cold - but not chilly, deep - but not frightening.
+    Suddenly, something touched your hand. At first you leaped back, but you soon
+    saw the familiar shape of a crystal. At the lake\u2019s bottom was a stretching
+    light, not unlike the crystal that had risen to the surface. You considered diving
+    in to grab more, but you reconsidered at the thought that the crystals might
+    be the source of the water-quality, and didn\u2019t dare take that away from
+    the animals that might need the lake to live. Finally, your wander could continue.
+    </b> "
   location: 3
