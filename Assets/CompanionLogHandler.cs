@@ -13,6 +13,11 @@ public class CompanionLogHandler : MonoBehaviour
 	int completedQuestsTotal;
 
 	public BarHandler bar;
+
+	public Text volcanoText;
+	public Text forestText;
+	public Text cityText;
+	public Text waterfallText;
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -25,6 +30,10 @@ public class CompanionLogHandler : MonoBehaviour
 		{
 			bar.setCurrentValue(completedQuestsTotal);
 		}
+		volcanoText.text = completedQuestsVolcano.ToString();
+		forestText.text = completedQuestsForest.ToString();
+		cityText.text = completedQuestsCity.ToString();
+		waterfallText.text = completedQuestsWaterfall.ToString();
 	}
 
 	public void IncrementQuest(string location)
