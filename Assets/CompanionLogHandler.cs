@@ -9,8 +9,9 @@ public class CompanionLogHandler : MonoBehaviour
 	int completedQuestsForest;
 	int completedQuestsCity;
 	int completedQuestsWaterfall;
+	float companionMunchTimer;
 
-	int completedQuestsTotal;
+	int foodAmount;
 
 	public BarHandler bar;
 
@@ -18,6 +19,11 @@ public class CompanionLogHandler : MonoBehaviour
 	public Text forestText;
 	public Text cityText;
 	public Text waterfallText;
+
+	public Image companionStandardSprite;
+	public Image companionMunchSprite;
+
+
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -28,17 +34,30 @@ public class CompanionLogHandler : MonoBehaviour
 	{
 		if (bar != null)
 		{
-			bar.setCurrentValue(completedQuestsTotal);
+			bar.setCurrentValue(foodAmount);
 		}
 		volcanoText.text = completedQuestsVolcano.ToString();
 		forestText.text = completedQuestsForest.ToString();
 		cityText.text = completedQuestsCity.ToString();
 		waterfallText.text = completedQuestsWaterfall.ToString();
+
+		if (companionMunchTimer > 0)
+		{
+			companionMunchSprite.gameObject.SetActive(true);
+			companionStandardSprite.gameObject.SetActive(false);
+			companionMunchTimer -= Time.deltaTime;
+		}
+		else
+		{
+
+			companionMunchSprite.gameObject.SetActive(false);
+			companionStandardSprite.gameObject.SetActive(true);
+		}
 	}
 
 	public void IncrementQuest(string location)
 	{
-		completedQuestsTotal++;
+		foodAmount++;
 
 		switch (location)
 		{
@@ -61,6 +80,17 @@ public class CompanionLogHandler : MonoBehaviour
 
 	public void Reset()
 	{
-		completedQuestsTotal = 0;
+		foodAmount = 0;
+	}
+
+	public void FeedCompanion()
+	{
+		if (foodAmount > 0)
+		{
+			foodAmount--;
+
+			//Do the things to make the mascot happy here
+			companionMunchTimer = 0.7f;
+		}
 	}
 }
