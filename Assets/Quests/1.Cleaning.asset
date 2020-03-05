@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: 1.Cleaning
   m_EditorClassIdentifier: 
-  questDescription: Do Laundry
+  questDescription: Do laundry
   rewardPoints: 1
   rewardText: "\u201CLaundry day! Laundry day!\u201D, the village children exclaimed
     while skipping about. You exited the inn to see most of the village gathered

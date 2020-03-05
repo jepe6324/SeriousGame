@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: '!.Exercise'
   m_EditorClassIdentifier: 
-  questDescription: Take a Walk
+  questDescription: Take a walk
   rewardPoints: 1
   rewardText: "<b> Having been in this world the citizens call \u201CThe Realm\u201D
     for quite a while now, you thought you had encountered all there is to see. That

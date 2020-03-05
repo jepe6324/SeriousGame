@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: 2.Energy
   m_EditorClassIdentifier: 
-  questDescription: Try a new dish
+  questDescription: Try new food
   rewardPoints: 2
   rewardText: "<b>The Day of the Feast had come once more, and the villagers were
     beginning to come together. Some came with rice, others with fish, beef, or vegetables.
