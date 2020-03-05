@@ -94,6 +94,11 @@ PrefabInstance:
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: HandIn
       objectReference: {fileID: 0}
+    - target: {fileID: 811834203637615399, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_Name
+      value: HandInQuestToggle
+      objectReference: {fileID: 0}
     - target: {fileID: 811834204124372613, guid: c650a72c4b46b394e9cb0b52040a38d5,
         type: 3}
       propertyPath: m_Name

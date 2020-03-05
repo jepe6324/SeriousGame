@@ -25,7 +25,7 @@ public class TextboxHandler : MonoBehaviour
         
     }
 
-	public void DisplayTextBox(string title, string main, string button) // Displays the textbox with a designated text for every textbox.
+	public void DisplayTextBox(string title, string main) // Displays the textbox with a designated text for every textbox.
 	{
 		titleText.text = title;
 		mainText.text = main;

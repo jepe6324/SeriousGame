@@ -9,6 +9,7 @@ public class AdventureLogHandler : MonoBehaviour
 	float questBoxDistance = -75.0f;
 
 	public Transform questBoxAnchor;
+	public TextboxHandler textBoxMother;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,11 @@ public class AdventureLogHandler : MonoBehaviour
 				child.localPosition = new Vector3(0, questBoxDistance * i, 0);
 			}
 		}
+	}
+
+	public void DisplayRewardText(Quest quest)
+	{
+		textBoxMother.DisplayTextBox(quest.questDescription, quest.rewardText);
 	}
 }
 

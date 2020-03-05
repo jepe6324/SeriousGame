@@ -30,7 +30,7 @@ public class TextboxCreator : MonoBehaviour
 		mainString = mainString.Replace("<br>", "\n");
 		buttonString = buttonString.Replace("<br>", "\n");
 		if (MotherBox != null)
-			MotherBox.DisplayTextBox(titleString, mainString, buttonString);
+			MotherBox.DisplayTextBox(titleString, mainString);
 		else
 			Debug.Log("MotherBox was null, please set it to a instance of motherBox");
 	}
