@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questDescription: Do laundry
   rewardPoints: 1
-  rewardText: "\u201CLaundry day! Laundry day!\u201D, the village children exclaimed
+  rewardText: "<b>\u201CLaundry day! Laundry day!\u201D, the village children exclaimed
     while skipping about. You exited the inn to see most of the village gathered
     with baskets of clothes and large buckets of water. The mother of the children
     you had previously heard hushed them and whispered something in their ears. After

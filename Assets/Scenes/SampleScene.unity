@@ -6741,7 +6741,7 @@ MonoBehaviour:
     no? For now, all I need is for you to have faith in your trusty friend! Oh, and
     collecting crystals. Mostly crystals actually. And break them down into food,
     yes, that\u2019s all I need! </b> "
-  feedingLoreTitle: Spoonie
+  feedingLoreTitle: <b>Spoonie</b>
 --- !u!4 &1853863528
 Transform:
   m_ObjectHideFlags: 0
