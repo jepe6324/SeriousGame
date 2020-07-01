@@ -25,6 +25,7 @@ public class QuestHandler : MonoBehaviour
 	private Quest[] questInstances; // Creates instances of the quests that we can use.
 	private AdventureLogHandler adventureLogHandler;
 	private CompanionLogHandler companionLogHandler;
+	private PlayerHandler playerHandler;
 
 	// Start is called before the first frame update
 	void Start()
@@ -32,6 +33,7 @@ public class QuestHandler : MonoBehaviour
 		questInstances = new Quest[quests.Length];
 		adventureLogHandler = FindObjectOfType<AdventureLogHandler>();
 		companionLogHandler = FindObjectOfType<CompanionLogHandler>();
+		playerHandler = FindObjectOfType<PlayerHandler>();
 
 		for (int i = 0; i < quests.Length; i++)
 		{
@@ -110,6 +112,7 @@ public class QuestHandler : MonoBehaviour
 			default:
 				break;
 		}
+		playerHandler.DrainEnergy(quest.rewardPoints);
 		adventureLogHandler.DisplayRewardText(quest);
 		quest.SetState(Quest.State.DONE);
 	}
