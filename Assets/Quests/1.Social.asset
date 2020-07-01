@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: 1.Social
   m_EditorClassIdentifier: 
-  questDescription: Go Shopping
+  questDescription: Go shopping
   rewardPoints: 1
   rewardText: "<b>Standing at the edges of the city, you couldn\u2019t help but get
     a feeling of awe. The tall brick walls encompassed it in its entirety apart from

@@ -15,11 +15,15 @@ public class PlayerHandler : MonoBehaviour
 	public GameObject dailyPopup;
 	public GameObject energyDrainedPopup;
 
+	public bool shouldEnergyDrainedPopupOnce;
+
 	int energyAmount;
+	bool energyDrainedPopupDone;
 
 	// Start is called before the first frame update
 	void Start()
     {
+		energyDrainedPopupDone = false;
 		bar.maxValue = highEnergy;
 		dailyPopup.SetActive(true);
 		background.SetActive(true);
@@ -40,8 +44,20 @@ public class PlayerHandler : MonoBehaviour
 		if ( energyAmount <= 0 )
 		{
 			// Spawn popup that warns about your energy level, close old text boxes as well maybe?
-			energyDrainedPopup.SetActive(true);
-			background.SetActive(true);
+			if (shouldEnergyDrainedPopupOnce == true)
+			{
+				if (energyDrainedPopupDone == false)
+				{
+					energyDrainedPopup.SetActive(true);
+					background.SetActive(true);
+					energyDrainedPopupDone = true;
+				}
+			}
+			else
+			{
+				energyDrainedPopup.SetActive(true);
+				background.SetActive(true);
+			}
 
 			energyAmount = 0;
 		}

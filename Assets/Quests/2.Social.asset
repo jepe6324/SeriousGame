@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: 2.Social
   m_EditorClassIdentifier: 
-  questDescription: Call family or friends.
+  questDescription: Call a friend
   rewardPoints: 2
   rewardText: "<b>\u201CWhy hello again, best friend o\u2019 mine! I didn\u2019t
     expect to see you so soon!\u201D, exclaimed Spoons as you entered the inn where

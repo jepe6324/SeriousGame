@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064149d4688e01e43b473d0c9b09c074, type: 3}
   m_Name: 3,Energy
   m_EditorClassIdentifier: 
-  questDescription: Eat 3 meals in a day.
+  questDescription: Eat 3 meals
   rewardPoints: 3
   rewardText: "<b>On your way to the waterfall, you came across a merchant with a
     huge backpack. He stopped and talked to you as you both took a moment\u2019s

@@ -84,6 +84,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quest Hand-In
       objectReference: {fileID: 0}
+    - target: {fileID: 811834203198440818, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 130f30ac5d40f3d47935979acbe21ae4,
+        type: 2}
+    - target: {fileID: 811834203198440818, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8736708687243773248, guid: 130f30ac5d40f3d47935979acbe21ae4,
+        type: 2}
+    - target: {fileID: 811834203198440818, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 811834203637615393, guid: c650a72c4b46b394e9cb0b52040a38d5,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -104,10 +121,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandInQuestText
       objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372613, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
         type: 3}
       propertyPath: m_text
       value: Complete
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: caa7d6a9b1e32af4a9f13a514bb80909,
+        type: 2}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3397777008630987380, guid: caa7d6a9b1e32af4a9f13a514bb80909,
+        type: 2}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204124372615, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 811834204237356128, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 130f30ac5d40f3d47935979acbe21ae4,
+        type: 2}
+    - target: {fileID: 811834204237356128, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -8736708687243773248, guid: 130f30ac5d40f3d47935979acbe21ae4,
+        type: 2}
+    - target: {fileID: 811834204237356128, guid: c650a72c4b46b394e9cb0b52040a38d5,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8259937290045213558, guid: c650a72c4b46b394e9cb0b52040a38d5, type: 3}
